@@ -15,7 +15,7 @@
     "@commitlint/config-conventional": "13.2.0",
     "husky": "7.0.4",
     "prettier": "2.4.1",
-    "semantic-release": "17.4.3",
+    "semantic-release": "18.0.0",
     "typescript": "4.4.4"
   },
   "scripts": {
