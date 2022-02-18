@@ -3,8 +3,7 @@ on:
   push:
     branches:
       - trunk
-  repository_dispatch:
-    types: [release]
+  workflow_dispatch:
 jobs:
   release:
     name: Release
