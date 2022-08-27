@@ -15,7 +15,7 @@
     "@commitlint/config-conventional": "17.0.3",
     "husky": "8.0.1",
     "prettier": "2.7.1",
-    "semantic-release": "19.0.3"
+    "semantic-release": "19.0.5"
   },
   "scripts": {
     "test": "prettier index.json",
