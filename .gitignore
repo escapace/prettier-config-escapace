@@ -1,4 +1,18 @@
-package-lock.json
+lib
+
+.DS_Store
+.awcache
+.idea
+.manage_modules
+.rpt2_cache
+.vscode
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
 
 # Logs
 logs
