@@ -1,37 +1,32 @@
 {
   "name": "prettier-config-escapace",
+  "description": "escapace prettier config",
   "version": "0.0.0",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/escapace/prettier-config-escapace.git"
-  },
   "author": {
     "name": "escapace",
     "email": "opensource@escapace.com"
   },
   "browsers": false,
-  "license": "MPL-2.0",
-  "description": "escapace prettier config",
-  "main": "index.json",
-  "files": [
-    "index.json"
-  ],
+  "bugs": "https://github.com/escapace/prettier-config-escapace/issues",
   "devDependencies": {
     "@commitlint/cli": "17.7.1",
     "@commitlint/config-conventional": "17.7.0",
     "husky": "8.0.3",
     "prettier": "3.0.3",
-    "semantic-release": "22.0.4"
+    "semantic-release": "22.0.5"
   },
+  "files": [
+    "index.json"
+  ],
+  "homepage": "https://github.com/escapace/prettier-config-escapace#readme",
+  "license": "MPL-2.0",
+  "main": "index.json",
   "publishConfig": {
     "provenance": true
   },
+  "repository": "escapace/prettier-config-escapace",
   "scripts": {
-    "test": "prettier index.json",
-    "prepare": "husky install"
-  },
-  "bugs": {
-    "url": "https://github.com/escapace/prettier-config-escapace/issues"
-  },
-  "homepage": "https://github.com/escapace/prettier-config-escapace#readme"
+    "prepare": "husky install",
+    "test": "prettier index.json"
+  }
 }
