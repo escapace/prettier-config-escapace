@@ -1,10 +1,10 @@
 {
-  "arrowParens": "avoid",
+  "arrowParens": "always",
   "bracketSameLine": false,
   "bracketSpacing": true,
   "htmlWhitespaceSensitivity": "ignore",
   "printWidth": 100,
-  "quoteProps": "as-needed",
+  "quoteProps": "consistent",
   "semi": false,
   "singleQuote": true,
   "tabWidth": 2,
