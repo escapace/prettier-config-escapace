@@ -9,24 +9,24 @@
   "browsers": false,
   "bugs": "https://github.com/escapace/prettier-config-escapace/issues",
   "devDependencies": {
-    "@commitlint/cli": "19.2.1",
-    "@commitlint/config-conventional": "19.1.0",
+    "@commitlint/cli": "19.2.2",
+    "@commitlint/config-conventional": "19.2.2",
     "husky": "9.0.11",
     "prettier": "3.2.5",
-    "semantic-release": "23.0.6"
+    "semantic-release": "23.0.8"
   },
   "files": [
-    "index.json"
+    ".prettierrc.json"
   ],
   "homepage": "https://github.com/escapace/prettier-config-escapace#readme",
   "license": "MPL-2.0",
-  "main": "index.json",
+  "main": ".prettierrc.json",
   "publishConfig": {
     "provenance": true
   },
   "repository": "escapace/prettier-config-escapace",
   "scripts": {
     "prepare": "husky",
-    "test": "prettier index.json"
+    "test": "prettier .prettierrc.json"
   }
 }
