@@ -9,11 +9,11 @@
   "browsers": false,
   "bugs": "https://github.com/escapace/prettier-config-escapace/issues",
   "devDependencies": {
-    "@commitlint/cli": "19.2.2",
+    "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "19.2.2",
-    "husky": "9.0.11",
+    "lefthook": "1.6.10",
     "prettier": "3.2.5",
-    "semantic-release": "23.0.8"
+    "semantic-release": "23.1.1"
   },
   "files": [
     ".prettierrc.json"
@@ -26,7 +26,7 @@
   },
   "repository": "escapace/prettier-config-escapace",
   "scripts": {
-    "prepare": "husky",
+    "prepare": "lefthook install",
     "test": "prettier .prettierrc.json"
   }
 }
