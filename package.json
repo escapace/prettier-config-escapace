@@ -14,8 +14,12 @@
     "@escapace/pnpm-pack": "0.8.0",
     "prettier": "3.8.3"
   },
-  "engines": {
-    "pnpm": ">=10.29.2"
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "onFail": "warn",
+      "version": ">=10.29.2"
+    }
   },
   "files": [
     ".prettierrc.json"
