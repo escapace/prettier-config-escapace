@@ -9,8 +9,8 @@
   "browsers": false,
   "bugs": "https://github.com/escapace/prettier-config-escapace/issues",
   "devDependencies": {
-    "@commitlint/cli": "21.0.1",
-    "@commitlint/config-conventional": "21.0.1",
+    "@commitlint/cli": "21.0.2",
+    "@commitlint/config-conventional": "21.0.2",
     "@escapace/pnpm-pack": "0.9.1",
     "prettier": "3.8.3"
   },
