@@ -12,7 +12,7 @@
     "@commitlint/cli": "21.2.3",
     "@commitlint/config-conventional": "21.2.3",
     "@escapace/pnpm-pack": "0.9.2",
-    "prettier": "3.9.8"
+    "prettier": "3.9.9"
   },
   "devEngines": {
     "packageManager": {
